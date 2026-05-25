@@ -3286,7 +3286,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 19.05 89.8524) (xy 45.72 90.17) (xy 45.72 158.75) (xy 42.545 162.56) (xy 20.955 162.56) (xy 19.05 158.75)
+				(xy 19.05 89.8524) (xy 45.72 90.17) (xy 45.72 158.75) (xy 42.545 161.29) (xy 20.955 161.29) (xy 19.05 158.75)
 			)
 			(stroke
 				(width 0)
@@ -3327,7 +3327,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03dbaffd-fefc-443a-8b13-091c0f4bb3c7")
 		(property "Reference" "#PWR04"
 			(at 99.06 143.51 0)
@@ -3340,14 +3339,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 99.06 140.97 0)
+		(property "Value" "dgnd"
+			(at 97.028 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4314,7 +4314,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "646348e7-668d-434c-9b86-dcd869f7ff13")
 		(property "Reference" "#PWR08"
 			(at 25.4 130.81 0)
@@ -4327,14 +4326,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 25.4 129.54 0)
+		(property "Value" "agnd"
+			(at 25.146 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4803,14 +4803,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 25.4 109.22 0)
+		(property "Value" "agnd"
+			(at 27.94 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4868,7 +4869,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3c9d480-d7ca-4eaa-9d63-66848ce94158")
 		(property "Reference" "#PWR09"
 			(at 25.4 140.97 0)
@@ -4881,14 +4881,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 25.4 139.7 0)
+		(property "Value" "agnd"
+			(at 25.146 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5280,14 +5281,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 26.67 157.48 0)
+		(property "Value" "agnd"
+			(at 29.21 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5426,7 +5428,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6275dfa-fece-4a61-9827-c225101c2772")
 		(property "Reference" "#PWR05"
 			(at 26.67 101.6 0)
@@ -5439,14 +5440,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 26.67 100.33 0)
+		(property "Value" "agnd"
+			(at 24.892 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5586,7 +5588,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ec1c2b1e-01b6-426e-be9e-5a81190fa943")
 		(property "Reference" "#PWR03"
 			(at 93.98 143.51 0)
@@ -5599,14 +5600,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 93.98 142.24 0)
+		(property "Value" "agnd"
+			(at 90.932 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
