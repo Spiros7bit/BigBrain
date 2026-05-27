@@ -1146,324 +1146,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS61023DRLR:TPS61023DRLR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "TPS61023DRLR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "TPS61023DRLR:SOT563-ORI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3.7-A boost converter with 0.5-V ultra-low input voltage"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "SOT-5X3-6 Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61023DRLR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "TPS61023DRLR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS61023DRLR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "TPS61023DRLR_0_0"
-				(rectangle
-					(start -10.16 -7.62)
-					(end 10.16 21.336)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "TPS61023"
-					(at 0 17.78 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify bottom)
-					)
-				)
-				(text "Boost"
-					(at 0 14.732 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify bottom)
-					)
-				)
-				(text "Vin 0.5V-5.5V"
-					(at 0 10.414 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify bottom)
-					)
-				)
-				(text "Vout 2.2V-5.5V"
-					(at 0 6.096 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify bottom)
-					)
-				)
-				(text "FB: 0.6V"
-					(at 0 1.778 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify bottom)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2282,12 +1964,6 @@
 		(uuid "3cb26d18-aee6-47c8-8e93-7d61e2496283")
 	)
 	(junction
-		(at 85.09 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a89f64-81c9-468e-8ac8-488d01c6a144")
-	)
-	(junction
 		(at 138.43 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2318,22 +1994,10 @@
 		(uuid "d4790110-cb31-41d4-9076-4dbef599cb7b")
 	)
 	(junction
-		(at 85.09 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dee5d2bc-6e1a-44b8-8cf1-184192c461f1")
-	)
-	(junction
 		(at 127 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2083c36-2e90-412a-baf4-7dfe0fb4e227")
-	)
-	(junction
-		(at 115.57 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efa02442-0339-4480-a585-e5083b8fa706")
 	)
 	(junction
 		(at 81.28 55.88)
@@ -2349,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 170.18) (xy 161.29 168.91)
+			(xy 124.46 137.16) (xy 124.46 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2386,16 +2050,6 @@
 			(type default)
 		)
 		(uuid "13a193d4-3b1c-4871-b6f0-24f2179cb477")
-	)
-	(wire
-		(pts
-			(xy 115.57 58.42) (xy 116.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13a72425-ea9f-4bfc-b40b-936f59df4c46")
 	)
 	(wire
 		(pts
@@ -2499,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 168.91) (xy 149.86 168.91)
+			(xy 109.22 135.89) (xy 113.03 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 85.09 63.5)
+			(xy 85.09 60.96) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2659,16 +2313,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 58.42) (xy 86.36 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fcb1df-4e8b-40f8-a670-ca4e2ff02792")
-	)
-	(wire
-		(pts
 			(xy 181.61 59.69) (xy 185.42 59.69)
 		)
 		(stroke
@@ -2686,16 +2330,6 @@
 			(type default)
 		)
 		(uuid "77fbb3a8-6ef4-4222-9f63-332c290dee79")
-	)
-	(wire
-		(pts
-			(xy 85.09 63.5) (xy 85.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca88dea-e6f2-410d-9d35-5db566763c41")
 	)
 	(wire
 		(pts
@@ -2949,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 58.42) (xy 85.09 58.42)
+			(xy 72.39 58.42) (xy 86.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 170.18) (xy 146.05 168.91)
+			(xy 109.22 137.16) (xy 109.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 58.42) (xy 115.57 58.42)
+			(xy 114.3 58.42) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 168.91) (xy 157.48 168.91)
+			(xy 124.46 135.89) (xy 120.65 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +2783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 170.18 0)
+		(at 109.22 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3160,7 +2794,7 @@
 		(fields_autoplaced yes)
 		(uuid "02749102-511c-4705-a1c3-8829d743daf1")
 		(property "Reference" "#PWR019"
-			(at 146.05 176.53 0)
+			(at 109.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,7 +2805,7 @@
 			)
 		)
 		(property "Value" "agnd"
-			(at 146.05 175.26 0)
+			(at 109.22 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3181,7 +2815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 170.18 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,7 +2826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 170.18 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +2837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 170.18 0)
+			(at 109.22 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,168 +2938,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS7A2030PDBVR:TPS7A2030PDBVR")
-		(at 201.93 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0eaf3602-a0fd-4c56-a768-aff3b1b432b5")
-		(property "Reference" "IC2"
-			(at 214.63 85.979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A2030PDBVR"
-			(at 214.63 88.2904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 223.52 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments"
-			(at 223.52 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR"
-			(at 223.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "1.45"
-			(at 223.52 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 223.52 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS7A2030PDBVR"
-			(at 223.52 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS7A2030PDBVR"
-			(at 223.52 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2030PDBVR?qs=hd1VzrDQEGgZMtQinkbhYw%3D%3D"
-			(at 223.52 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Arrow Part Number" "TPS7A2030PDBVR"
-			(at 223.52 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments.html?utm_currency=USD&region=nac"
-			(at 223.52 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "ads1299_test_board"
-				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/a537b4c0-2d82-4fbb-91d8-e3a7ef64a59b"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 153.67 168.91 90)
+		(at 116.84 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3476,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "14f87a63-2a05-4fa1-a47e-897186886d1d")
 		(property "Reference" "R13"
-			(at 153.67 162.56 90)
+			(at 116.84 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3486,7 +2960,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 153.67 165.1 90)
+			(at 116.84 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,7 +2970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 170.688 90)
+			(at 116.84 137.668 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +2981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 168.91 0)
+			(at 116.84 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +2992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 168.91 0)
+			(at 116.84 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +3637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 170.18 0)
+		(at 124.46 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4174,7 +3648,7 @@
 		(fields_autoplaced yes)
 		(uuid "508fdffe-8ef1-4c0d-99ba-3b3cf82f01ea")
 		(property "Reference" "#PWR020"
-			(at 161.29 176.53 0)
+			(at 124.46 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +3659,7 @@
 			)
 		)
 		(property "Value" "dgnd"
-			(at 161.29 175.26 0)
+			(at 124.46 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4195,7 +3669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 170.18 0)
+			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 170.18 0)
+			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +3691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 170.18 0)
+			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,184 +4946,6 @@
 			(project "ads1299_test_board"
 				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/a537b4c0-2d82-4fbb-91d8-e3a7ef64a59b"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TPS61023DRLR:TPS61023DRLR")
-		(at 100.33 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c80da0aa-93df-48c1-b0c3-8a22df846c32")
-		(property "Reference" "IC1"
-			(at 114.3 51.689 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS61023DRLR"
-			(at 114.3 54.0004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOTFL50P160X60-6N"
-			(at 124.46 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61023.pdf"
-			(at 124.46 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 3-A boost converter with 0.5-V ultra-low input voltage 6-SOT-5X3 -40 to 125"
-			(at 124.46 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Height" "0.6"
-			(at 124.46 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 124.46 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS61023DRLR"
-			(at 124.46 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS61023DRLR"
-			(at 124.46 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61023DRLR?qs=BJlw7L4Cy7%2FfEnwYuWeGOg%3D%3D"
-			(at 124.46 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Arrow Part Number" "TPS61023DRLR"
-			(at 124.46 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps61023drlr/texas-instruments.html?utm_currency=USD&region=nac"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "4"
-			(uuid "55a1f212-2c6d-4f0b-ae18-91137606f26d")
-		)
-		(pin "6"
-			(uuid "13a95115-cf14-452c-b660-7882b79b378b")
-		)
-		(pin "5"
-			(uuid "cf641673-ae4c-40be-9aab-832a565ee58e")
-		)
-		(pin "2"
-			(uuid "d5413f31-b869-4a23-a5dd-f9b8fde43d09")
-		)
-		(pin "1"
-			(uuid "221c1baf-907e-45e9-98d3-e61a7cc6daf5")
-		)
-		(pin "3"
-			(uuid "635dbb46-e426-4c49-a7ad-0c6dc64a0da0")
-		)
-		(instances
-			(project "ads1299_test_board"
-				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/a537b4c0-2d82-4fbb-91d8-e3a7ef64a59b"
-					(reference "IC1")
 					(unit 1)
 				)
 			)

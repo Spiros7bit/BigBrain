@@ -108,7 +108,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 66.04)
+		(at 121.92 43.18)
 		(size 44.45 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -124,7 +124,7 @@
 		)
 		(uuid "fc0c8262-5909-4fc3-abb1-3b11f752dbb7")
 		(property "Sheetname" "ads1299_AFE_"
-			(at 132.08 65.3284 0)
+			(at 121.92 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,7 +135,7 @@
 			)
 		)
 		(property "Sheetfile" "ads1299.kicad_sch"
-			(at 132.08 127.5846 0)
+			(at 121.92 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
