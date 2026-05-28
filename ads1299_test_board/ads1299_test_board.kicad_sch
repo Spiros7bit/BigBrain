@@ -5,6 +5,56 @@
 	(uuid "97f9a33a-d3bd-406a-9672-b92babffe6b5")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 181.61 44.45) (xy 203.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff43ea0-cd6d-4850-9e0e-1d20ba7b4832")
+	)
+	(wire
+		(pts
+			(xy 181.61 49.53) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1146049c-cd33-4b06-adb5-e2aa5f95df92")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fdc4d6-b3e1-4f5b-b05b-015b28404dbb")
+	)
+	(wire
+		(pts
+			(xy 198.12 53.34) (xy 203.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60750465-1fcf-431c-8854-ca6e8bf76712")
+	)
+	(wire
+		(pts
+			(xy 198.12 97.79) (xy 198.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e862b21f-5f40-4a7b-891f-06f7e1847873")
+	)
 	(sheet
 		(at 203.2 93.98)
 		(size 27.94 20.32)
@@ -43,9 +93,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout" output
-			(at 203.2 110.49 180)
-			(uuid "e86830e3-bac1-4c4d-8c83-c9376d65f934")
+		(pin "Vbat" output
+			(at 203.2 97.79 180)
+			(uuid "2a4fbd9b-3978-4a16-baa9-3a72b0375534")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,6 +149,36 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.3V" output
+			(at 203.2 44.45 180)
+			(uuid "cfb8d391-fb58-4002-89ef-3f234bbd86b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 203.2 49.53 180)
+			(uuid "c7518345-c162-4319-bdd2-51e9f80fe1b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vbat" input
+			(at 203.2 53.34 180)
+			(uuid "32859c9d-2730-43f9-982d-1f4aefd9961a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ads1299_test_board"
 				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5"
@@ -108,7 +188,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 43.18)
+		(at 137.16 39.37)
 		(size 44.45 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,11 +200,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 251 23 0.5019607843)
 		)
 		(uuid "fc0c8262-5909-4fc3-abb1-3b11f752dbb7")
 		(property "Sheetname" "ads1299_AFE_"
-			(at 121.92 42.4684 0)
+			(at 137.16 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "ads1299.kicad_sch"
-			(at 121.92 104.7246 0)
+			(at 137.16 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -143,6 +223,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 181.61 44.45 0)
+			(uuid "6637380f-d713-4097-8695-8f3406170c14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 181.61 49.53 0)
+			(uuid "6a71e27a-6a9b-4121-86db-85f978800bcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

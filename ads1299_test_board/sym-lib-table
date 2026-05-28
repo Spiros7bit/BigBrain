@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TPS7A2050PDBVR") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/tps7a2050pdbvr/TPS7A2050PDBVR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS61023DRLR") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/tps61023drlr/TPS61023DRLR.kicad_sym") (options "") (descr ""))
+)
