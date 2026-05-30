@@ -5,29 +5,15 @@
 	(uuid "97f9a33a-d3bd-406a-9672-b92babffe6b5")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 181.61 44.45) (xy 203.2 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ff43ea0-cd6d-4850-9e0e-1d20ba7b4832")
+	(junction
+		(at 149.86 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65227da9-5b4a-4ab0-a87f-696f8431c558")
 	)
 	(wire
 		(pts
-			(xy 181.61 49.53) (xy 203.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1146049c-cd33-4b06-adb5-e2aa5f95df92")
-	)
-	(wire
-		(pts
-			(xy 203.2 97.79) (xy 198.12 97.79)
+			(xy 168.91 96.52) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +23,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 53.34) (xy 203.2 53.34)
+			(xy 147.32 46.99) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371723dc-7db8-4c48-9b63-8088b1ceff3b")
+	)
+	(wire
+		(pts
+			(xy 147.32 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c86753-df86-4227-ba9e-77a3f195d62b")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +53,77 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 198.12 53.34)
+			(xy 168.91 121.92) (xy 166.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73361655-1780-4807-adbe-359410409e51")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 168.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f1d806-c2f0-4787-89d9-998ec2c4e572")
+	)
+	(wire
+		(pts
+			(xy 166.37 121.92) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86feba35-cb46-45d2-b7ca-c5c809540ea3")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 147.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b777a33d-a4d7-4b61-8e05-bca06cdc3c88")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 168.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb77b1b4-354e-4bc6-9464-4b5fd1e7ebe0")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.22) (xy 168.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca84dd7-e4e7-4546-8ff7-ad20f1f2584f")
+	)
+	(wire
+		(pts
+			(xy 149.86 46.99) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d868d810-82c0-4ce6-ba88-cf13b607c989")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 166.37 82.55)
 		)
 		(stroke
 			(width 0)
@@ -55,8 +131,18 @@
 		)
 		(uuid "e862b21f-5f40-4a7b-891f-06f7e1847873")
 	)
+	(wire
+		(pts
+			(xy 149.86 46.99) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d0c88a-3042-4a1e-99dd-274637ff620e")
+	)
 	(sheet
-		(at 203.2 93.98)
+		(at 168.91 92.71)
 		(size 27.94 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +158,7 @@
 		)
 		(uuid "0dd9bec8-6710-4c0a-9b8c-36b6cf8ccc82")
 		(property "Sheetname" "charger"
-			(at 203.2 93.2684 0)
+			(at 168.91 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -83,7 +169,7 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 203.2 114.8846 0)
+			(at 168.91 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -94,8 +180,18 @@
 			)
 		)
 		(pin "Vbat" output
-			(at 203.2 97.79 180)
+			(at 168.91 96.52 180)
 			(uuid "2a4fbd9b-3978-4a16-baa9-3a72b0375534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vusb" input
+			(at 168.91 109.22 180)
+			(uuid "e9446a7d-5cb2-463a-9d88-684d53f1f65e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +208,83 @@
 		)
 	)
 	(sheet
-		(at 203.2 39.37)
+		(at 168.91 118.11)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 251 23 0.5019607843)
+		)
+		(uuid "6847a2d3-404c-4489-885a-3855f072c603")
+		(property "Sheetname" "USB"
+			(at 168.91 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 168.91 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" output
+			(at 168.91 132.08 180)
+			(uuid "88e5ebe3-d9e2-44d9-990a-616db71f6ee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USD_D+" output
+			(at 168.91 127 180)
+			(uuid "b78ed19e-e144-4a45-ad4b-5cb890476841")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vusb" output
+			(at 168.91 121.92 180)
+			(uuid "afe8360e-c4eb-4ef4-b7b3-c1f07230cd4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ads1299_test_board"
+				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 38.1)
 		(size 27.94 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -128,7 +300,7 @@
 		)
 		(uuid "a537b4c0-2d82-4fbb-91d8-e3a7ef64a59b")
 		(property "Sheetname" "power_circuit"
-			(at 203.2 38.6584 0)
+			(at 168.91 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -139,7 +311,7 @@
 			)
 		)
 		(property "Sheetfile" "power_circuit.kicad_sch"
-			(at 203.2 88.2146 0)
+			(at 168.91 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,7 +322,7 @@
 			)
 		)
 		(pin "+3.3V" output
-			(at 203.2 44.45 180)
+			(at 168.91 46.99 180)
 			(uuid "cfb8d391-fb58-4002-89ef-3f234bbd86b0")
 			(effects
 				(font
@@ -160,7 +332,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 203.2 49.53 180)
+			(at 168.91 41.91 180)
 			(uuid "c7518345-c162-4319-bdd2-51e9f80fe1b8")
 			(effects
 				(font
@@ -170,7 +342,7 @@
 			)
 		)
 		(pin "Vbat" input
-			(at 203.2 53.34 180)
+			(at 168.91 82.55 180)
 			(uuid "32859c9d-2730-43f9-982d-1f4aefd9961a")
 			(effects
 				(font
@@ -188,7 +360,84 @@
 		)
 	)
 	(sheet
-		(at 137.16 39.37)
+		(at 102.87 104.14)
+		(size 44.45 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 251 23 0.5019607843)
+		)
+		(uuid "c8b445c4-b7e1-4f45-8797-441e12018657")
+		(property "Sheetname" "ESP32_S3_WROOM"
+			(at 102.87 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_S3_WROOM.kicad_sch"
+			(at 102.87 165.6846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 147.32 109.22 0)
+			(uuid "83596d18-878f-4c87-810d-0e53503c4fbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 147.32 127 0)
+			(uuid "1764954b-08c9-498b-9eb7-af706a60a613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 147.32 132.08 0)
+			(uuid "1fca1ef6-6411-4ad3-9535-bae2902eb315")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ads1299_test_board"
+				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 38.1)
 		(size 44.45 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -204,7 +453,7 @@
 		)
 		(uuid "fc0c8262-5909-4fc3-abb1-3b11f752dbb7")
 		(property "Sheetname" "ads1299_AFE_"
-			(at 137.16 38.6584 0)
+			(at 102.87 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -215,7 +464,7 @@
 			)
 		)
 		(property "Sheetfile" "ads1299.kicad_sch"
-			(at 137.16 100.9146 0)
+			(at 102.87 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -226,7 +475,7 @@
 			)
 		)
 		(pin "+3.3V" input
-			(at 181.61 44.45 0)
+			(at 147.32 46.99 0)
 			(uuid "6637380f-d713-4097-8695-8f3406170c14")
 			(effects
 				(font
@@ -236,7 +485,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 181.61 49.53 0)
+			(at 147.32 41.91 0)
 			(uuid "6a71e27a-6a9b-4121-86db-85f978800bcd")
 			(effects
 				(font
