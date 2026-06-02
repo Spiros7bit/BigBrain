@@ -1573,12 +1573,6 @@
 		)
 	)
 	(junction
-		(at 146.05 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "059da3eb-622b-4a2a-a35a-22dfcace8713")
-	)
-	(junction
 		(at 154.94 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1595,6 +1589,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d8356e7-c1ce-4c4a-8f8d-28780ae00538")
+	)
+	(junction
+		(at 139.7 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5280662b-e285-4814-889f-117c0d8ab270")
+	)
+	(junction
+		(at 146.05 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2a8423-7b5a-4a17-b9ca-41028a794d02")
 	)
 	(junction
 		(at 171.45 95.25)
@@ -1664,6 +1670,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 95.25) (xy 146.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2d7c20-5e73-4995-9884-29abc79c3d93")
+	)
+	(wire
+		(pts
 			(xy 96.52 92.71) (xy 110.49 92.71)
 		)
 		(stroke
@@ -1704,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 137.16 104.14)
+			(xy 129.54 100.33) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1774,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 107.95) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4149cad-0769-4c7f-80d5-b91648bff048")
+	)
+	(wire
+		(pts
 			(xy 105.41 90.17) (xy 110.49 90.17)
 		)
 		(stroke
@@ -1784,13 +1810,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 135.89 104.14)
+			(xy 129.54 104.14) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b880c8e9-3b01-405c-a4b8-b8de6ba9bb69")
+	)
+	(wire
+		(pts
+			(xy 128.27 107.95) (xy 139.7 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde9265a-ca4e-41f3-8feb-6f7b4e3596d7")
 	)
 	(wire
 		(pts
@@ -1814,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 146.05 95.25)
+			(xy 137.16 95.25) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 137.16 90.17)
+			(xy 129.54 86.36) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1912,9 +1948,20 @@
 		)
 		(uuid "f53a11a6-fee6-4b44-aa7f-a9276c6f1f24")
 	)
+	(hierarchical_label "Vusb"
+		(shape input)
+		(at 128.27 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33b0bad4-3158-48b1-8f01-56fb028d5c66")
+	)
 	(hierarchical_label "Vbat"
 		(shape output)
-		(at 135.89 104.14 180)
+		(at 128.27 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1923,7 +1970,7 @@
 		)
 		(uuid "6717868e-2e40-491e-961f-43db2435d5a1")
 	)
-	(hierarchical_label "Vusb"
+	(hierarchical_label "Vusb_charge"
 		(shape input)
 		(at 170.18 83.82 180)
 		(effects
@@ -2662,7 +2709,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 137.16 86.36 0)
+		(at 129.54 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2672,7 +2719,7 @@
 		(dnp no)
 		(uuid "9da9255a-96e8-4cbb-bed7-46c817e675da")
 		(property "Reference" "#PWR016"
-			(at 137.16 90.17 0)
+			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2730,7 @@
 			)
 		)
 		(property "Value" "Vbat"
-			(at 132.842 84.328 0)
+			(at 125.222 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2693,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2704,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2715,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 137.16 86.36 0)
+			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3428,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 139.7 95.25 180)
+		(at 132.08 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3392,7 +3439,7 @@
 		(fields_autoplaced yes)
 		(uuid "efe7868e-4dc2-4e7c-bc4c-190273feae9c")
 		(property "Reference" "Q1"
-			(at 133.35 93.9799 0)
+			(at 125.73 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3403,7 +3450,7 @@
 			)
 		)
 		(property "Value" "AO3407A"
-			(at 133.35 96.5199 0)
+			(at 125.73 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3414,7 +3461,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 134.62 93.345 0)
+			(at 127 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 134.62 91.44 0)
+			(at 127 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +3486,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 139.7 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

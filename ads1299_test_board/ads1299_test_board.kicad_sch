@@ -6,6 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 163.83 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55abd36e-025e-4747-a4e1-5095a7253f53")
+	)
+	(junction
 		(at 149.86 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -33,6 +39,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd37f62-75a6-4b1f-966d-84a0d4e8fb8a")
+	)
+	(wire
+		(pts
 			(xy 147.32 127) (xy 168.91 127)
 		)
 		(stroke
@@ -53,7 +69,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 121.92) (xy 166.37 121.92)
+			(xy 168.91 123.19) (xy 163.83 123.19)
 		)
 		(stroke
 			(width 0)
@@ -73,13 +89,43 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 121.92) (xy 166.37 109.22)
+			(xy 163.83 123.19) (xy 163.83 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86feba35-cb46-45d2-b7ca-c5c809540ea3")
+	)
+	(wire
+		(pts
+			(xy 168.91 120.65) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6f89c9-f8fa-4c30-bfc3-f5d715da0c76")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20eef2a-6577-4339-a445-b25778675a65")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41132b7-0fae-4d3c-bb9a-854d82a288bf")
 	)
 	(wire
 		(pts
@@ -103,7 +149,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 109.22) (xy 168.91 109.22)
+			(xy 163.83 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -140,6 +186,16 @@
 			(type default)
 		)
 		(uuid "e9d0c88a-3042-4a1e-99dd-274637ff620e")
+	)
+	(wire
+		(pts
+			(xy 163.83 78.74) (xy 163.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71fc1e9-3d97-4174-a6a3-74c29bc32bdd")
 	)
 	(sheet
 		(at 168.91 92.71)
@@ -190,8 +246,18 @@
 			)
 		)
 		(pin "Vusb" input
-			(at 168.91 109.22 180)
+			(at 168.91 107.95 180)
 			(uuid "e9446a7d-5cb2-463a-9d88-684d53f1f65e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vusb_charge" input
+			(at 168.91 110.49 180)
+			(uuid "9bf58207-ac8c-4c55-a4df-7e27beaed516")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,8 +332,18 @@
 			)
 		)
 		(pin "Vusb" output
-			(at 168.91 121.92 180)
+			(at 168.91 123.19 180)
 			(uuid "afe8360e-c4eb-4ef4-b7b3-c1f07230cd4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vusb_charge" output
+			(at 168.91 120.65 180)
+			(uuid "bf443a21-fe1c-4c2c-a581-cb291936ec08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,6 +420,16 @@
 		(pin "Vbat" input
 			(at 168.91 82.55 180)
 			(uuid "32859c9d-2730-43f9-982d-1f4aefd9961a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vusb" input
+			(at 168.91 78.74 180)
+			(uuid "e1f2acbd-8854-4046-9f5f-e2a942c9f02c")
 			(effects
 				(font
 					(size 1.27 1.27)
