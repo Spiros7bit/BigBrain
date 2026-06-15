@@ -1740,6 +1740,12 @@
 		)
 	)
 	(junction
+		(at 134.62 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "067ba503-7f8a-4736-86e6-6fe52ac484a5")
+	)
+	(junction
 		(at 97.79 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1780,12 +1786,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c02d16df-5f18-4de6-a8f3-094eb554e64b")
-	)
-	(junction
-		(at 134.62 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0984742-ff1b-4f12-92a8-20796d0fe2ae")
 	)
 	(junction
 		(at 104.14 80.01)
@@ -1945,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 134.62 99.06)
+			(xy 134.62 97.79) (xy 134.62 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 85.09)
+			(xy 134.62 90.17) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 134.62 92.71 0)
+		(at 134.62 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2776,7 +2776,7 @@
 		(dnp no)
 		(uuid "27373645-5f73-4a71-9ecf-2b1f5de25a73")
 		(property "Reference" "C17"
-			(at 137.541 91.5416 0)
+			(at 137.541 92.8116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,8 +2786,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
-			(at 137.541 93.853 0)
+		(property "Value" "20uF"
+			(at 137.541 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2797,8 +2797,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.5852 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 135.5852 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 92.71 0)
+			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 92.71 0)
+			(at 134.62 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3176,8 +3176,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 90.932 87.63 90)
+		(property "Value" "10k"
+			(at 88.9 87.376 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3186,7 +3186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 88.9 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 187.96 115.1636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 190.5 116.332 90)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "20uF"
 			(at 154.051 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200p"
+		(property "Value" "200pF"
 			(at 96.901 76.073 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 94.9452 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +3890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 102.362 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -4047,7 +4047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 220.98 200.33 0)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +4212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uH"
 			(at 106.7308 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4223,7 +4223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_HCI-5040"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4245,8 +4245,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "744316220"
 			(at 105.41 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4370,7 +4371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20u"
+		(property "Value" "20uF"
 			(at 170.561 95.123 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 168.6052 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4538,7 +4539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOTFL50P160X60-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 130.81 174.93 0)
 			(hide yes)
 			(show_name no)
@@ -4879,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 82.55 78.232 90)
 			(hide yes)
 			(show_name no)
@@ -4948,7 +4949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 100.711 93.853 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +4960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 98.7552 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5027,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 195.58 71.9836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +5038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 195.58 73.152 90)
 			(hide yes)
 			(show_name no)

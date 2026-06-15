@@ -502,7 +502,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "Vbat_charger"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USB/Vusb_charge"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SW"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USB/Vbus"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -632,7 +649,7 @@
         "uuid": "97f9a33a-d3bd-406a-9672-b92babffe6b5"
       }
     ],
-    "used_designators": "#PWR54-56,U4,ON/OFF1,C27-28,J2",
+    "used_designators": "D2",
     "variants": []
   },
   "sheets": [

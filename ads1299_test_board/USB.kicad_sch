@@ -1802,6 +1802,12 @@
 		(uuid "16df54a1-1021-488a-a9bb-af8bf89287c8")
 	)
 	(junction
+		(at 160.02 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d602f98-8ac1-4d11-af23-4ca5b5d620ac")
+	)
+	(junction
 		(at 134.62 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1865,13 +1871,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 187.96 73.66)
+			(xy 184.15 78.74) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a293677-b120-4dfa-9f80-64e49a9595c8")
+		(uuid "309cb1a0-b020-4de5-b191-343608ab56b8")
 	)
 	(wire
 		(pts
@@ -1905,16 +1911,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 187.96 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a93d4fb-cbec-4307-9af1-db01fcedfba8")
-	)
-	(wire
-		(pts
 			(xy 130.81 107.95) (xy 134.62 107.95)
 		)
 		(stroke
@@ -1925,6 +1921,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682da7d9-43e5-4642-977f-3b7b39719793")
+	)
+	(wire
+		(pts
 			(xy 130.81 93.98) (xy 166.37 93.98)
 		)
 		(stroke
@@ -1932,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "6933ae8a-e984-4e1a-a1c8-f91a24d35e0a")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c06ca84-211f-45f0-9417-e94ae9c63d9c")
 	)
 	(wire
 		(pts
@@ -2053,6 +2069,16 @@
 		)
 		(uuid "eaa9e71c-1a4e-409c-a21a-0a13c85606a7")
 	)
+	(label "Vbus"
+		(at 123.19 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33501c12-85b2-436d-ac6d-1b688893fbaf")
+	)
 	(hierarchical_label "Vusb_charge"
 		(shape output)
 		(at 187.96 73.66 0)
@@ -2129,7 +2155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 134.62 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -2287,7 +2313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 179.07 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2309,7 +2335,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "MFS101D-10-Z"
 			(at 179.07 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2633,7 +2659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2655,7 +2681,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
+		(property "Description" "D13-0824-16007"
 			(at 106.68 91.44 0)
 			(hide yes)
 			(show_name no)

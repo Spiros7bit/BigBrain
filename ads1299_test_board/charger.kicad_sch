@@ -1003,6 +1003,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4448W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4448W"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4448W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4448W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:AO3401A"
 			(pin_names
 				(hide yes)
@@ -1573,50 +1760,50 @@
 		)
 	)
 	(junction
-		(at 151.13 88.9)
+		(at 125.73 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "354227aa-2803-4fe5-8a5d-e561af2d45dc")
-	)
-	(junction
-		(at 179.07 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4338d39d-408b-46cb-857a-273189a630d9")
+		(uuid "4b5f5448-79e3-444d-bb19-e048f998b342")
 	)
 	(junction
 		(at 167.64 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4d8356e7-c1ce-4c4a-8f8d-28780ae00538")
-	)
-	(junction
-		(at 135.89 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5280662b-e285-4814-889f-117c0d8ab270")
+		(uuid "989eb139-4f29-4c21-bad8-ad5e1db9a2f8")
 	)
 	(junction
 		(at 142.24 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b2a8423-7b5a-4a17-b9ca-41028a794d02")
+		(uuid "9b93af72-1636-4213-a2f7-e7647a220c18")
+	)
+	(junction
+		(at 151.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c876d32-980c-4317-b886-337d9227104c")
+	)
+	(junction
+		(at 179.07 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db96ad40-0151-468c-809b-565759615d09")
 	)
 	(junction
 		(at 167.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f28ab76b-6c56-4f8a-abd7-6b3623cecce7")
+		(uuid "f9ec6424-bbaa-4479-a8e4-a6e4c7b9d986")
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 167.64 88.9)
+			(xy 142.24 88.9) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c72cf2b-7f21-4b37-ae8b-121d49dbf9d9")
+		(uuid "0ba5d4b2-0f63-4b4a-81d4-87690c9b13dd")
 	)
 	(wire
 		(pts
@@ -1640,23 +1827,33 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 167.64 90.17)
+			(xy 151.13 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3accb8c6-3697-4167-925e-4473f92d1776")
+		(uuid "1892961b-58e5-4efe-9852-cdc9bef40aee")
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 167.64 77.47)
+			(xy 125.73 88.9) (xy 125.73 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3edf5016-792c-408c-9e2c-a182d738b518")
+		(uuid "1b956b05-f202-4a89-ae59-5cb7c6105c06")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d24a30-9a80-466f-a906-1fbd3663f7e4")
 	)
 	(wire
 		(pts
@@ -1670,17 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 142.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2d7c20-5e73-4995-9884-29abc79c3d93")
-	)
-	(wire
-		(pts
-			(xy 92.71 86.36) (xy 106.68 86.36)
+			(xy 78.74 86.36) (xy 92.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 106.68 83.82)
+			(xy 92.71 82.55) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1907,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 125.73 97.79)
+			(xy 167.64 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f254909-e7a2-4288-8ea3-104e3f078f90")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1760,17 +1957,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 80.01) (xy 200.66 77.47)
+			(xy 179.07 87.63) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "949613ee-258b-418b-8b3b-cd9e33db6618")
+		(uuid "820303fe-8681-4cf3-b680-6af2d43e99c1")
 	)
 	(wire
 		(pts
-			(xy 92.71 83.82) (xy 93.98 83.82)
+			(xy 119.38 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981070dc-50e7-4112-b908-6eb856443d70")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.82) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1790,17 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4149cad-0769-4c7f-80d5-b91648bff048")
-	)
-	(wire
-		(pts
-			(xy 101.6 83.82) (xy 106.68 83.82)
+			(xy 87.63 83.82) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1810,23 +2007,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 97.79) (xy 124.46 97.79)
+			(xy 167.64 77.47) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cc11fa-9bed-40c1-a013-6cda2739e895")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b880c8e9-3b01-405c-a4b8-b8de6ba9bb69")
-	)
-	(wire
-		(pts
-			(xy 124.46 101.6) (xy 135.89 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde9265a-ca4e-41f3-8feb-6f7b4e3596d7")
 	)
 	(wire
 		(pts
@@ -1840,47 +2037,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 88.9)
+			(xy 125.73 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c30002b9-dc57-463c-ae0f-827fa1cf4b6c")
+		(uuid "c5cdc1be-53e9-4102-9172-c61d317a334f")
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 135.89 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5e06bf6-8e73-466a-b9eb-772ee8bc1d6b")
-	)
-	(wire
-		(pts
-			(xy 142.24 88.9) (xy 151.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28b2305-0c9f-49ae-bdf9-046e983f7538")
-	)
-	(wire
-		(pts
-			(xy 179.07 87.63) (xy 179.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d591bc1d-8668-4792-967e-9dab5e09a194")
-	)
-	(wire
-		(pts
-			(xy 125.73 80.01) (xy 125.73 83.82)
+			(xy 111.76 80.01) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1890,13 +2057,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 200.66 77.47)
+			(xy 166.37 77.47) (xy 167.64 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1bc323-db3a-4fde-abfa-4c9f22d37d1d")
+		(uuid "da851ed8-9792-4148-b195-c4ee6e6c79a7")
 	)
 	(wire
 		(pts
@@ -1940,7 +2107,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 106.68 86.36)
+			(xy 200.66 77.47) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7bc951-27eb-4b84-93f8-88412b3b71ee")
+	)
+	(wire
+		(pts
+			(xy 92.71 87.63) (xy 92.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1948,9 +2125,19 @@
 		)
 		(uuid "f53a11a6-fee6-4b44-aa7f-a9276c6f1f24")
 	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff63b4e8-ea1a-4ba8-bf84-daae8d92194e")
+	)
 	(hierarchical_label "Vusb"
 		(shape input)
-		(at 124.46 101.6 180)
+		(at 110.49 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +2148,7 @@
 	)
 	(hierarchical_label "Vbat"
 		(shape output)
-		(at 124.46 97.79 180)
+		(at 110.49 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1983,7 +2170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 87.63 0)
+		(at 92.71 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1994,7 +2181,7 @@
 		(fields_autoplaced yes)
 		(uuid "038d7ed0-5b80-4ab1-9af0-6ac5d7051d6d")
 		(property "Reference" "#PWR025"
-			(at 106.68 93.98 0)
+			(at 92.71 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +2192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 92.71 0)
+			(at 92.71 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2015,7 +2202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 87.63 0)
+			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2026,7 +2213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 87.63 0)
+			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2037,7 +2224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 87.63 0)
+			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2494,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 97.79 83.82 270)
+		(at 83.82 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2317,7 +2504,7 @@
 		(dnp no)
 		(uuid "4b2a7a66-25cc-4dc8-8d39-65cc00a92fcb")
 		(property "Reference" "F1"
-			(at 97.79 78.8162 90)
+			(at 83.82 78.8162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2327,7 +2514,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 97.79 81.1276 90)
+			(at 83.82 81.1276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2337,7 +2524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 82.042 90)
+			(at 83.82 82.042 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2348,7 +2535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 83.82 0)
+			(at 83.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2359,7 +2546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 83.82 0)
+			(at 83.82 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2417,7 +2604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 152.0952 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2487,7 +2674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "330"
 			(at 206.502 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 202.438 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -2548,7 +2735,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 87.63 86.36 180)
+		(at 73.66 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2558,7 +2745,7 @@
 		(dnp no)
 		(uuid "6aacdcab-8688-43a5-ab13-1ca2815e1ea9")
 		(property "Reference" "J1"
-			(at 88.9 79.248 0)
+			(at 74.93 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2568,7 +2755,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 89.7128 80.4164 0)
+			(at 75.7428 80.4164 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2578,8 +2765,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 86.36 0)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 86.36 0)
+			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,8 +2787,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 86.36 0)
+		(property "Description" "1175-51125-02-0200-01-ND"
+			(at 71.882 92.456 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,6 +2808,108 @@
 			(project "ads1299_test_board"
 				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/0dd9bec8-6710-4c0a-9b8c-36b6cf8ccc82"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448W")
+		(at 133.35 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e584b77-5148-4d0b-886a-858561d178c7")
+		(property "Reference" "D2"
+			(at 133.35 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4448W"
+			(at 133.35 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 133.35 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85722/1n4448w.pdf"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A High-speed standard diode, SOD-123"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95311446-d22f-4bd2-84cf-e5b1b8550f5b")
+		)
+		(pin "2"
+			(uuid "d2555320-5ad7-4457-a1bf-ae349b3f32b6")
+		)
+		(instances
+			(project "ads1299_test_board"
+				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/0dd9bec8-6710-4c0a-9b8c-36b6cf8ccc82"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2659,7 +2949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 157.988 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -2709,7 +2999,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 125.73 80.01 0)
+		(at 111.76 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2719,7 +3009,7 @@
 		(dnp no)
 		(uuid "9da9255a-96e8-4cbb-bed7-46c817e675da")
 		(property "Reference" "#PWR016"
-			(at 125.73 83.82 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +3020,7 @@
 			)
 		)
 		(property "Value" "Vbat"
-			(at 121.412 77.978 0)
+			(at 107.442 77.978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2740,7 +3030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 80.01 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +3041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 80.01 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2762,7 +3052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 125.73 80.01 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +3184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 186.69 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -3022,7 +3312,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 106.68 82.55 0)
+		(at 92.71 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3032,7 +3322,7 @@
 		(dnp no)
 		(uuid "d36720ae-b373-4cd8-8b87-afbfeca04f91")
 		(property "Reference" "#PWR017"
-			(at 106.68 86.36 0)
+			(at 92.71 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,7 +3333,7 @@
 			)
 		)
 		(property "Value" "Vbat"
-			(at 102.362 80.518 0)
+			(at 88.392 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 82.55 0)
+			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 82.55 0)
+			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,7 +3365,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 106.68 82.55 0)
+			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 144.018 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -3367,7 +3657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3428,7 +3718,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
-		(at 128.27 88.9 180)
+		(at 114.3 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3439,7 +3729,7 @@
 		(fields_autoplaced yes)
 		(uuid "efe7868e-4dc2-4e7c-bc4c-190273feae9c")
 		(property "Reference" "Q1"
-			(at 121.92 87.6299 0)
+			(at 107.95 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3450,7 +3740,7 @@
 			)
 		)
 		(property "Value" "AO3407A"
-			(at 121.92 90.1699 0)
+			(at 107.95 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3751,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 123.19 86.995 0)
+			(at 109.22 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +3764,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 123.19 85.09 0)
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3776,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 128.27 88.9 0)
+			(at 114.3 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
