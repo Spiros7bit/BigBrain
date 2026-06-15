@@ -1807,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 156.21 99.06)
+			(xy 156.21 100.33) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 156.21 111.76)
+			(xy 156.21 107.95) (xy 156.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2146,7 +2146,7 @@
 		)
 		(uuid "33b0bad4-3158-48b1-8f01-56fb028d5c66")
 	)
-	(hierarchical_label "Vbat"
+	(hierarchical_label "Vbat_out"
 		(shape output)
 		(at 110.49 97.79 180)
 		(effects
@@ -2917,7 +2917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 105.41 180)
+		(at 156.21 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2928,7 +2928,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e791340-3d18-47bd-aed1-a0946cd4aebe")
 		(property "Reference" "R10"
-			(at 158.75 104.1399 0)
+			(at 158.75 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 158.75 106.6799 0)
+			(at 158.75 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 157.988 105.41 90)
+			(at 157.988 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 105.41 0)
+			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 105.41 0)
+			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

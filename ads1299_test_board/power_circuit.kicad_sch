@@ -2418,7 +2418,7 @@
 		)
 		(uuid "02e906df-ce13-4e05-889c-386cbd6e6856")
 	)
-	(hierarchical_label "Vbat"
+	(hierarchical_label "Vbat_out"
 		(shape input)
 		(at 78.74 95.25 180)
 		(effects
