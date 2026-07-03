@@ -1760,12 +1760,6 @@
 		)
 	)
 	(junction
-		(at 125.73 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b5f5448-79e3-444d-bb19-e048f998b342")
-	)
-	(junction
 		(at 167.64 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,16 +1828,6 @@
 			(type default)
 		)
 		(uuid "1892961b-58e5-4efe-9852-cdc9bef40aee")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b956b05-f202-4a89-ae59-5cb7c6105c06")
 	)
 	(wire
 		(pts
@@ -1967,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 125.73 88.9)
+			(xy 119.38 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2034,16 +2018,6 @@
 			(type default)
 		)
 		(uuid "c148b69e-3dfe-49ae-9d7f-200c7546ddb2")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 129.54 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5cdc1be-53e9-4102-9172-c61d317a334f")
 	)
 	(wire
 		(pts
@@ -2125,27 +2099,6 @@
 		)
 		(uuid "f53a11a6-fee6-4b44-aa7f-a9276c6f1f24")
 	)
-	(wire
-		(pts
-			(xy 110.49 101.6) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff63b4e8-ea1a-4ba8-bf84-daae8d92194e")
-	)
-	(hierarchical_label "Vusb"
-		(shape input)
-		(at 110.49 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33b0bad4-3158-48b1-8f01-56fb028d5c66")
-	)
 	(hierarchical_label "Vbat_out"
 		(shape output)
 		(at 110.49 97.79 180)
@@ -2157,7 +2110,7 @@
 		)
 		(uuid "6717868e-2e40-491e-961f-43db2435d5a1")
 	)
-	(hierarchical_label "Vusb_charge"
+	(hierarchical_label "Vusb"
 		(shape input)
 		(at 166.37 77.47 180)
 		(effects

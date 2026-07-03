@@ -6,14 +6,14 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 137.16 125.73)
+		(at 139.7 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38146621-0a3c-4b46-9406-92f5d651781d")
+		(uuid "d781167d-5871-4e8b-b569-54df0145571a")
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 137.16 143.51)
+			(xy 139.7 125.73) (xy 139.7 143.51)
 		)
 		(stroke
 			(width 0)
@@ -33,6 +33,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180f11d9-58f2-410a-8773-186b69aec54e")
+	)
+	(wire
+		(pts
 			(xy 137.16 118.11) (xy 137.16 102.87)
 		)
 		(stroke
@@ -43,27 +53,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 147.32) (xy 134.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce7010f-0b12-4c50-880c-8c694a1cd9f3")
-	)
-	(wire
-		(pts
-			(xy 137.16 125.73) (xy 153.67 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c8d048-6b65-4d24-8e63-61aee33d508c")
-	)
-	(wire
-		(pts
-			(xy 134.62 125.73) (xy 137.16 125.73)
+			(xy 134.62 125.73) (xy 139.7 125.73)
 		)
 		(stroke
 			(width 0)
@@ -93,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 143.51) (xy 137.16 143.51)
+			(xy 134.62 143.51) (xy 139.7 143.51)
 		)
 		(stroke
 			(width 0)
@@ -113,17 +103,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 128.27) (xy 138.43 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c78f2fd-0bf9-4959-8959-54a271992baa")
-	)
-	(wire
-		(pts
-			(xy 134.62 128.27) (xy 135.89 128.27)
+			(xy 134.62 128.27) (xy 138.43 128.27)
 		)
 		(stroke
 			(width 0)
@@ -140,16 +120,6 @@
 			(type default)
 		)
 		(uuid "686f7c62-7141-4f10-8f5b-7cebe5bddb65")
-	)
-	(wire
-		(pts
-			(xy 153.67 128.27) (xy 138.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692f9f97-e82a-4b73-a009-e20eef728081")
 	)
 	(wire
 		(pts
@@ -183,6 +153,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 138.43) (xy 137.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d191585-d017-4533-898d-3c0476f315d6")
+	)
+	(wire
+		(pts
 			(xy 151.13 100.33) (xy 151.13 120.65)
 		)
 		(stroke
@@ -193,7 +173,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 128.27) (xy 135.89 140.97)
+			(xy 138.43 128.27) (xy 138.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -223,6 +203,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 138.43) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8033e84-b8a9-4ce2-aaea-7656c64272a0")
+	)
+	(wire
+		(pts
 			(xy 134.62 62.23) (xy 153.67 62.23)
 		)
 		(stroke
@@ -243,13 +233,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 140.97) (xy 134.62 140.97)
+			(xy 138.43 140.97) (xy 134.62 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9b97167-f867-488c-8708-0216098a600a")
+	)
+	(wire
+		(pts
+			(xy 134.62 130.81) (xy 137.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c473b0-99c3-4c8a-b2f1-7c8e02c13ebd")
 	)
 	(wire
 		(pts
@@ -409,9 +409,9 @@
 				(justify right)
 			)
 		)
-		(pin "Vusb_charge" input
-			(at 134.62 147.32 0)
-			(uuid "9bf58207-ac8c-4c55-a4df-7e27beaed516")
+		(pin "Vbat_out" output
+			(at 134.62 138.43 0)
+			(uuid "a17a138d-d902-493a-9c58-441600b7631c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,16 +488,6 @@
 		(pin "Vusb" output
 			(at 153.67 125.73 180)
 			(uuid "afe8360e-c4eb-4ef4-b7b3-c1f07230cd4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vusb_charge" output
-			(at 153.67 128.27 180)
-			(uuid "bf443a21-fe1c-4c2c-a581-cb291936ec08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,6 +574,16 @@
 		(pin "Vusb" input
 			(at 134.62 125.73 0)
 			(uuid "e1f2acbd-8854-4046-9f5f-e2a942c9f02c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vbat_out" input
+			(at 134.62 130.81 0)
+			(uuid "aa20831f-23be-4b73-927e-f8266dca28fa")
 			(effects
 				(font
 					(size 1.27 1.27)
