@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W2A45C103MAT2A
+D Capacitor Arrays & Networks 50V 0.01uF 20% 4cap X7R
+K
+F https://static6.arrow.com/aropdfconversion/45e297553e8a3b18fcd0ed38f532e52a09efc12d/caparray.pdf
+$ENDCMP
+#
+#End Doc Library

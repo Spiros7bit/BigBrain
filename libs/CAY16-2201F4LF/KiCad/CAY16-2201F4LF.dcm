@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAY16-2201F4LF
+D Bourns CAY16 Series 2.2k +/-1% Isolated SMT Resistor Array, 4 Resistors, 0.25W total 1206 Package Convex
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140092.pdf
+$ENDCMP
+#
+#End Doc Library

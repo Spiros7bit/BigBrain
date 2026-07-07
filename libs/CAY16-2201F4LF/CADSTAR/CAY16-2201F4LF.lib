@@ -1,0 +1,18 @@
+.CAY16-2201F4LF :1 ;Bourns CAY16 Series 2.2k +/-1% Isolated SMT Resistor Array, 4 Resistors, 0.25W total 1206 Package Convex
+RESCAX80P160X320X60-8N
+*STM R
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN CAY16-2201F4LF
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CAY16-2201F4LF)
+~!Mouser Part Number (652-CAY16-2201F4LF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/CAY16-2201F4LF?qs=tEaODSGlU8NX5flyk%2FHGvg%3D%3D)
+~!Arrow Part Number (CAY16-2201F4LF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cay16-2201f4lf/bourns?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-7/sf-000140092.pdf)
+~!Height (0.6mm)
+~!3D_Model (CAY16-2201F4LF)
+CAY16-2201F4LF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

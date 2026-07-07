@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RESCAX80P160X320X60-8N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RESCAX80P160X320X60-8N")
+        (spec "default")
+    )
+)

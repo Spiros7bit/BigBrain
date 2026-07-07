@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CAY16-2201F4LF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "RESCAX80P160X320X60-8N")
+        (spec "System")
+    )
+)

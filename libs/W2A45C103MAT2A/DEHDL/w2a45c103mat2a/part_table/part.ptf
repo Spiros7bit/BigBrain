@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W2A45C103MAT2A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kyocera AVX", "W2A45C103MAT2A" (!) = "", "W2A45C103MAT2A", "Other", "581-W2A45C103MAT2A", "https://www.mouser.co.uk/ProductDetail/AVX/W2A45C103MAT2A?qs=yRKuMHbOG1qe0RwRtAbZEg%3D%3D", "W2A45C103MAT2A", "https://www.arrow.com/en/products/w2a45c103mat2a/avx", "Capacitor Arrays & Networks 50V 0.01uF 20% 4cap X7R", "https://static6.arrow.com/aropdfconversion/45e297553e8a3b18fcd0ed38f532e52a09efc12d/caparray.pdf", "0.94 mm"
+END_PART
+
+END.

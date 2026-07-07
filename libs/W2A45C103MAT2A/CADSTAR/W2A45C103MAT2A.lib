@@ -1,0 +1,18 @@
+.W2A45C103MAT2A :1 ;Capacitor Arrays & Networks 50V 0.01uF 20% 4cap X7R
+W2A45C103MAT2A
+*STM CN
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN W2A45C103MAT2A
+~!Manufacturer_Name (Kyocera AVX)
+~!Manufacturer_Part_Number (W2A45C103MAT2A)
+~!Mouser Part Number (581-W2A45C103MAT2A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/AVX/W2A45C103MAT2A?qs=yRKuMHbOG1qe0RwRtAbZEg%3D%3D)
+~!Arrow Part Number (W2A45C103MAT2A)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/w2a45c103mat2a/avx)
+~!Link Datasheet (https://static6.arrow.com/aropdfconversion/45e297553e8a3b18fcd0ed38f532e52a09efc12d/caparray.pdf)
+~!Height (0.94mm)
+~!3D_Model (W2A45C103MAT2A)
+W2A45C103MAT2A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

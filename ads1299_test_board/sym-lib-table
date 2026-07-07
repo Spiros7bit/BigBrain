@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "TPS7A2050PDBVR") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/tps7a2050pdbvr/TPS7A2050PDBVR.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS61023DRLR") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/tps61023drlr/TPS61023DRLR.kicad_sym") (options "") (descr ""))
+	(lib (name "W2A45C103MAT2A") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/W2A45C103MAT2A/KiCad/W2A45C103MAT2A.kicad_sym") (options "") (descr ""))
+	(lib (name "CAY16-2201F4LF") (type "KiCad") (uri "C:/Users/Christos/Documents/BigBrain/libs/CAY16-2201F4LF/KiCad/CAY16-2201F4LF.kicad_sym") (options "") (descr ""))
 )
