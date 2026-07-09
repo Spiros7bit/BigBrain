@@ -3665,6 +3665,14 @@
 		(uuid "f3962e02-5416-4fa4-8503-8e18bbe13616")
 	)
 	(no_connect
+		(at 151.13 118.11)
+		(uuid "7fa185fb-c4bb-4477-b8c3-80cb4cba4b33")
+	)
+	(no_connect
+		(at 151.13 115.57)
+		(uuid "cea69fc1-1d5c-494b-bd70-c1666bb71ad0")
+	)
+	(no_connect
 		(at 151.13 62.23)
 		(uuid "e34f1be2-a3c6-4271-ad61-119da0f43cfc")
 	)
@@ -4730,16 +4738,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 34.29 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99cc4d9-7dd4-45c9-899b-2092c104cade")
-	)
-	(wire
-		(pts
 			(xy 151.13 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -5099,7 +5097,7 @@
 		(uuid "23cf7b66-bf0a-44d9-9de6-f678e30bd650")
 	)
 	(label "IN1N"
-		(at 44.45 90.17 0)
+		(at 44.45 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5198,7 @@
 		(uuid "5b68c336-f0ec-4f30-9aa6-891aec2ae4f1")
 	)
 	(label "IN3P"
-		(at 31.75 95.25 180)
+		(at 31.75 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5380,12 +5378,12 @@
 		(uuid "91323a73-1d36-4b0f-a1c0-2cea95206207")
 	)
 	(label "Bias_electrode"
-		(at 34.29 100.33 180)
+		(at 44.45 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "94bf004b-6b4b-48c3-8cea-56d18f3b6fd8")
 	)
@@ -5420,7 +5418,7 @@
 		(uuid "9d87b60b-e31d-4250-be5f-f2d0134d8ad2")
 	)
 	(label "IN4P"
-		(at 31.75 97.79 180)
+		(at 31.75 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5501,12 +5499,12 @@
 		(uuid "bce87beb-76ab-415f-add4-ecb5c5e76c9d")
 	)
 	(label "Ref_electrode"
-		(at 44.45 100.33 0)
+		(at 31.75 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c503ab81-7469-4442-9a38-691380bce035")
 	)
@@ -5521,7 +5519,7 @@
 		(uuid "ca919f66-98ae-40a9-83ed-baa85bff188b")
 	)
 	(label "IN4N"
-		(at 44.45 97.79 0)
+		(at 44.45 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5531,7 +5529,7 @@
 		(uuid "d1b63223-74ee-4fce-b3ad-c32cb9f1cd8e")
 	)
 	(label "IN3N"
-		(at 44.45 95.25 0)
+		(at 44.45 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5551,7 +5549,7 @@
 		(uuid "d8db8a3f-be9d-4663-9470-e93812c8abbc")
 	)
 	(label "IN1P"
-		(at 31.75 90.17 180)
+		(at 31.75 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5571,7 +5569,7 @@
 		(uuid "e833f436-2919-4d51-8b0c-789113bf507e")
 	)
 	(label "IN2P"
-		(at 31.75 92.71 180)
+		(at 31.75 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,7 +5579,7 @@
 		(uuid "eea9b404-53bd-45ab-b143-c46d4d461be0")
 	)
 	(label "IN2N"
-		(at 44.45 92.71 0)
+		(at 44.45 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9635,14 +9633,13 @@
 			"b3ed4603-6c18-45a6-a7a9-4d5a09c08671" "b427b9c8-cd8c-4851-8384-35f3b470cd96"
 			"b6c532a8-276a-4ea5-9017-38b21cdc40b9" "bce87beb-76ab-415f-add4-ecb5c5e76c9d"
 			"c1d2e623-7db4-4274-b8ce-083743e258fa" "c503ab81-7469-4442-9a38-691380bce035"
-			"c99cc4d9-7dd4-45c9-899b-2092c104cade" "cc340a1a-22e8-4165-bca6-8721b8b0b063"
-			"cdb295c9-1868-48e4-a0c6-508198fb6fdd" "d1b63223-74ee-4fce-b3ad-c32cb9f1cd8e"
-			"d587d880-0af7-4162-aed2-ce590c43f627" "d80cd447-9bd6-4eeb-a66f-8bda6f73d70c"
-			"d82f30f3-4065-43b6-81c8-9b403b9c8be6" "e6ed5087-4183-43e8-b7d2-9a02f45edc66"
-			"eea9b404-53bd-45ab-b143-c46d4d461be0" "f128c97a-0b12-446a-9f99-d13d1a6daf4d"
-			"f17a7fb9-c9c7-4438-b337-270b728fc4eb" "f4253d6f-c0a3-40e9-9ad7-db83303dc0c0"
-			"f4e87d51-f4f5-4b36-b6f0-fb2239fd7979" "fa5b47de-801c-4761-919e-876be397dbb4"
-			"fb528be8-a716-4c16-8d97-8b87115554fd"
+			"cc340a1a-22e8-4165-bca6-8721b8b0b063" "cdb295c9-1868-48e4-a0c6-508198fb6fdd"
+			"d1b63223-74ee-4fce-b3ad-c32cb9f1cd8e" "d587d880-0af7-4162-aed2-ce590c43f627"
+			"d80cd447-9bd6-4eeb-a66f-8bda6f73d70c" "d82f30f3-4065-43b6-81c8-9b403b9c8be6"
+			"e6ed5087-4183-43e8-b7d2-9a02f45edc66" "eea9b404-53bd-45ab-b143-c46d4d461be0"
+			"f128c97a-0b12-446a-9f99-d13d1a6daf4d" "f17a7fb9-c9c7-4438-b337-270b728fc4eb"
+			"f4253d6f-c0a3-40e9-9ad7-db83303dc0c0" "f4e87d51-f4f5-4b36-b6f0-fb2239fd7979"
+			"fa5b47de-801c-4761-919e-876be397dbb4" "fb528be8-a716-4c16-8d97-8b87115554fd"
 		)
 	)
 )
