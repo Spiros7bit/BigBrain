@@ -2793,160 +2793,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Variable"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable"
-				(at -2.54 -1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Variable resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Variable_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "W2A45C103MAT2A:W2A45C103MAT2A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8507,7 +8353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable")
+		(lib_id "Device:R")
 		(at 187.96 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -8517,9 +8363,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "984ef9d3-6cd7-47a3-a0a3-860dd67dfbf4")
+		(uuid "abb6e267-f4f1-424f-85c0-2706ac19d0a3")
 		(property "Reference" "R19"
-			(at 191.77 62.2299 0)
+			(at 190.5 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8530,7 +8376,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 191.77 64.7699 0)
+			(at 190.5 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,7 +8408,7 @@
 				)
 			)
 		)
-		(property "Description" "Variable resistor"
+		(property "Description" "Resistor"
 			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8573,11 +8419,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "2669bd36-32ca-4e81-a403-db7fc10e7075")
-		)
 		(pin "1"
-			(uuid "b432f00c-54d3-4d0f-85b8-3612c97bfd02")
+			(uuid "4b32d4f3-b123-461b-a745-683c45cd8c4f")
+		)
+		(pin "2"
+			(uuid "7d39a179-0556-4db2-8a50-144d43b984c3")
 		)
 		(instances
 			(project "ads1299_test_board"
@@ -8782,7 +8628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 167.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9112,7 +8958,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15nF"
 			(at 163.83 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9122,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.64 43.4848 0)
 			(hide yes)
 			(show_name no)
@@ -9506,7 +9352,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 173.228 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9516,7 +9362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 163.83 47.752 90)
 			(hide yes)
 			(show_name no)

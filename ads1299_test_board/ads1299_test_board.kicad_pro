@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|132060000|81231920|38fd1933-c5d7-4c9d-ba94-9245446d4bfc|8a94d360-ef64-4a5a-b4f9-931bd287652e",
+          "custom footprint"
+        ],
+        [
+          "solder_mask_bridge|132060000|81731920|8a94d360-ef64-4a5a-b4f9-931bd287652e|f923c727-bf71-4ac5-86ab-cb5cd53da8c3",
+          "custom footprint"
+        ],
+        [
+          "solder_mask_bridge|132060000|82231920|f923c727-bf71-4ac5-86ab-cb5cd53da8c3|04303382-e879-4977-8c6f-099bcbc0ef56",
+          "custom footprint"
+        ],
+        [
+          "solder_mask_bridge|132060000|85131920|1efd0de1-293c-4edd-90fd-4502d12a2d64|e7fede8d-0537-45ea-872c-3e7d29b4f1d2",
+          "custom footprint"
+        ],
+        [
+          "solder_mask_bridge|132060000|85631920|e7fede8d-0537-45ea-872c-3e7d29b4f1d2|93dcff48-9829-4250-aef6-973cf80bb74a",
+          "custom footprint"
+        ],
+        [
+          "solder_mask_bridge|132060000|86131920|93dcff48-9829-4250-aef6-973cf80bb74a|72ff110c-3088-4672-ba2b-b77adf614c56",
+          "custom footprint"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -535,6 +560,10 @@
       {
         "netclass": "Default",
         "pattern": "Vbat"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/ads1299_AFE_/4N"
       }
     ]
   },
@@ -666,7 +695,7 @@
         "uuid": "97f9a33a-d3bd-406a-9672-b92babffe6b5"
       }
     ],
-    "used_designators": "J2-3",
+    "used_designators": "R19,J2-3,C24",
     "variants": []
   },
   "sheets": [
