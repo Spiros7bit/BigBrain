@@ -1162,7 +1162,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Omron_B3FS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1186,7 +1186,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Omron_B3FS"
 				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1207,7 +1207,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1218,7 +1218,7 @@
 					)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1240,7 +1240,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
+			(property "ki_fp_filters" "SW*Omron*B3FS*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1251,7 +1251,7 @@
 					)
 				)
 			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Omron_B3FS_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1301,7 +1301,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1319,28 +1319,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1348,25 +1327,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3065,7 +3025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
+		(lib_id "Switch:SW_Omron_B3FS")
 		(at 66.04 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -3075,7 +3035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2ead138-3d60-48ad-835a-8521441d3c89")
+		(uuid "ced85abc-b8ae-419a-bf05-9a8e26caae3e")
 		(property "Reference" "SW2"
 			(at 66.04 128.27 0)
 			(show_name no)
@@ -3086,7 +3046,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5G"
+		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 66.04 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,18 +3056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 66.04 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3118,7 +3067,18 @@
 				)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts810-series-datasheet?assetguid=f1e4bc97-66e9-4beb-99c6-eaef0bd3bff4"
+			(at 66.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
 			(at 66.04 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3129,17 +3089,11 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "cc544748-6f9a-4753-b7d7-c8a81076bdd1")
-		)
-		(pin "3"
-			(uuid "6cbf1724-b399-440b-b940-973af0d7159b")
-		)
 		(pin "1"
-			(uuid "5ec916ee-0771-4f74-aca3-1f44ce64057c")
+			(uuid "b7fce945-1ba5-4247-aada-921e1e0266f0")
 		)
 		(pin "2"
-			(uuid "4057e447-4170-4a44-af3e-e698656c7c66")
+			(uuid "d6faff59-1c24-4606-9cab-117a38394aee")
 		)
 		(instances
 			(project "ads1299_test_board"
@@ -3159,8 +3113,8 @@
 		(members "0470b827-f04a-4f06-aa01-3ba9e95a8b85" "542c0824-bfbb-4d58-9999-c8fc20c2fe35"
 			"5e5913bd-260c-455c-817a-3bac4bc228e8" "5f2e0aed-b4aa-463e-9a5e-0c3fae0711f5"
 			"6366c0cc-1d9d-461e-8903-0ef284a072b5" "9264a05e-565f-4cfd-9732-60272b251642"
-			"d1932d0b-bad0-4ee2-9acb-28daac83eb39" "e2ead138-3d60-48ad-835a-8521441d3c89"
-			"ef12b1bc-83cc-4a22-a750-8b84466cce1c" "fca05337-07ab-4dcf-8821-bcd08aa0a9d1"
+			"d1932d0b-bad0-4ee2-9acb-28daac83eb39" "ef12b1bc-83cc-4a22-a750-8b84466cce1c"
+			"fca05337-07ab-4dcf-8821-bcd08aa0a9d1"
 		)
 	)
 )
