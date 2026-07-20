@@ -5,7 +5,7 @@
 	(uuid "857f7ee0-75d5-4436-94af-ae42b3bbe282")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA376xxD"
+		(symbol "Amplifier_Operational:OPA376xxDBV"
 			(pin_names
 				(offset 0.127)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 6.35 0)
+				(at -1.27 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA376xxD"
-				(at 0 3.81 0)
+			(property "Value" "OPA376xxDBV"
+				(at -1.27 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +36,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -49,7 +49,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-				(at 3.81 3.81 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
+			(property "Description" "Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +92,7 @@
 					)
 				)
 			)
-			(symbol "OPA376xxD_0_1"
+			(symbol "OPA376xxDBV_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -105,31 +105,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "OPA376xxD_1_1"
-				(pin no_connect line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,6 +116,44 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPA376xxDBV_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -162,10 +179,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,80 +190,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8693,107 +8636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA376xxD")
-		(at 78.74 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5581943d-d43c-401b-8314-2912403fe7a4")
-		(property "Reference" "U4"
-			(at 73.0819 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OPA376xxD"
-			(at 73.0819 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 76.2 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
-			(at 82.55 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOIC-8"
-			(at 78.74 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5a46171f-e152-42fd-9fbc-31512c103454")
-		)
-		(pin "6"
-			(uuid "1d5b1873-d105-4203-b46f-ae8e7e1e5079")
-		)
-		(pin "5"
-			(uuid "784b788b-f13e-4c9b-8404-ce3938d15ba8")
-		)
-		(pin "1"
-			(uuid "6457a12c-d8f6-4442-80cf-e9c1c2fecd8a")
-		)
-		(pin "2"
-			(uuid "ea9098cd-1fe8-4070-a443-79ed521e44fb")
-		)
-		(pin "7"
-			(uuid "2518dfc5-df97-4cc2-8c31-fb083cc3e704")
-		)
-		(pin "3"
-			(uuid "c9f5ab84-6b88-4ea6-a89a-56ed20200db5")
-		)
-		(pin "8"
-			(uuid "3bcc1a49-8677-4ede-9e7e-22ac3eab6c8d")
-		)
-		(instances
-			(project "ads1299_test_board"
-				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/fc0c8262-5909-4fc3-abb1-3b11f752dbb7"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 22.86 187.96 0)
 		(unit 1)
@@ -9628,6 +9470,96 @@
 			(project "ads1299_test_board"
 				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/fc0c8262-5909-4fc3-abb1-3b11f752dbb7"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA376xxDBV")
+		(at 78.74 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f4c3d6-9227-484c-879e-859a4128956f")
+		(property "Reference" "U5"
+			(at 91.44 171.3798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA376xxDBV"
+			(at 91.44 173.9198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 76.2 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa376.pdf"
+			(at 78.74 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "043544d8-c13c-4f5e-98f2-0f0b1a273d6d")
+		)
+		(pin "3"
+			(uuid "363900d5-1ff8-4ff5-9c66-446cc0c97fbd")
+		)
+		(pin "1"
+			(uuid "beb271bb-fdf7-4164-a614-08f3b1284c6e")
+		)
+		(pin "2"
+			(uuid "ad893efd-d53f-4d57-89ba-0928746bf0e2")
+		)
+		(pin "5"
+			(uuid "516bd6b7-fd9c-4dd4-b537-f1b8e4a85ec5")
+		)
+		(instances
+			(project "ads1299_test_board"
+				(path "/97f9a33a-d3bd-406a-9672-b92babffe6b5/fc0c8262-5909-4fc3-abb1-3b11f752dbb7"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -11161,21 +11093,6 @@
 			"ca9fa3c9-b3d6-48b1-9197-ff83df14e59d" "e2ddf81d-4bcd-4b2a-abc5-e0065c481f3a"
 			"e539fc9e-bd71-4b43-bb44-2862488fb9ed" "ed13b23c-695b-4ebb-a92c-9420733b4baf"
 			"eea0906a-4c01-4b7f-accf-2c11458cc301"
-		)
-	)
-	(group ""
-		(uuid "671ea00f-2314-4399-985c-e419942ed2a1")
-		(members "046aa602-50ba-496a-820d-bffa0f107be9" "13f3651d-cba0-47a1-9456-a9714d8f9410"
-			"167a5735-2a7b-4998-bf8c-63d231675a37" "1b2f03a5-2bd0-449f-ac2d-7d29bde24763"
-			"3c6cbad6-83ac-4331-b944-242164102515" "42a4158f-b89c-4126-93dc-0c2f290adbe9"
-			"53af7c84-ebeb-407d-9427-de8471a3e76d" "5581943d-d43c-401b-8314-2912403fe7a4"
-			"57d983db-a91f-4db6-aeee-e696adca4886" "63825c48-cbd1-489d-954a-37ce0e07d92f"
-			"67fc5cc0-d23a-438c-a1b1-9d78c1aa4743" "8ef13d0f-13c7-4f0b-95dc-83441b281058"
-			"ade85c43-0cb2-4d35-a5c1-ce17b09ed102" "c60f8070-fed3-49d7-b743-96fce6d7d286"
-			"cfbe0bc2-6aad-4f8e-82cc-7ee471172378" "d21aed29-08cc-4a30-af28-817b09461db7"
-			"d89643ed-de0e-41d4-bcaf-f1965adcd533" "d8db8a3f-be9d-4663-9470-e93812c8abbc"
-			"e7794fe5-da48-480e-97fb-42bdc85875e2" "e86411de-ecff-4a34-b715-fde9c47f3fc9"
-			"f1d32478-0ca0-4ae3-af94-201fe5968825" "f76b8b52-a39b-480a-8af0-95fb8945d6bb"
 		)
 	)
 )
